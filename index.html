@@ -127,11 +127,11 @@
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                    <button onclick="showDemoForm()" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold text-lg transition flex items-center justify-center">
+                    <a href="mailto:policygrid.systems@gmail.com?subject=PolicyGrid Demo Request&body=Hi, I'm interested in a demo of PolicyGrid." class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold text-lg transition flex items-center justify-center">
                         <i class="fas fa-rocket mr-2"></i>
                         Get Started - Free Demo
-                    </button>
-                    <a href="https://wa.me/97333123456" target="_blank" class="glass-effect hover:bg-white/10 px-8 py-4 rounded-lg font-semibold text-lg transition flex items-center justify-center">
+                    </a>
+                    <a href="https://wa.me/97366308147" target="_blank" class="glass-effect hover:bg-white/10 px-8 py-4 rounded-lg font-semibold text-lg transition flex items-center justify-center">
                         <i class="fab fa-whatsapp mr-2 text-green-400"></i>
                         WhatsApp Us
                     </a>
@@ -426,7 +426,7 @@
                     </div>
                 </div>
                 
-                <div class="glass-effect rounded-2xl p-8">
+                <div class="glass-effect rounded-2xl p-8" style="display: none;">
                     <h3 class="text-2xl font-bold mb-6 text-center">Supported By</h3>
                     <div class="grid grid-cols-2 gap-6">
                         <div class="bg-slate-800/50 rounded-lg p-6 text-center">
@@ -459,11 +459,11 @@
                 Join forward-thinking GCC insurers who are already using AI to make better decisions
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <button onclick="showDemoForm()" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold text-lg transition">
+                <a href="mailto:policygrid.systems@gmail.com?subject=PolicyGrid Demo Request&body=Hi, I'm interested in a demo of PolicyGrid." class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold text-lg transition inline-flex items-center justify-center">
                     <i class="fas fa-calendar-alt mr-2"></i>
                     Schedule a Demo
-                </button>
-                <a href="https://wa.me/97333123456" target="_blank" class="glass-effect hover:bg-white/10 px-8 py-4 rounded-lg font-semibold text-lg transition inline-flex items-center justify-center">
+                </a>
+                <a href="https://wa.me/97366308147" target="_blank" class="glass-effect hover:bg-white/10 px-8 py-4 rounded-lg font-semibold text-lg transition inline-flex items-center justify-center">
                     <i class="fab fa-whatsapp mr-2 text-green-400"></i>
                     Chat on WhatsApp
                 </a>
@@ -510,9 +510,9 @@
                 <div>
                     <h4 class="font-semibold mb-4">Contact</h4>
                     <ul class="space-y-2 text-slate-400 text-sm">
-                        <li><i class="fas fa-envelope mr-2 text-blue-400"></i>hello@PolicyGrid.me</li>
-                        <li><i class="fab fa-whatsapp mr-2 text-green-400"></i>+973 3312 3456</li>
-                        <li><i class="fas fa-map-marker-alt mr-2 text-red-400"></i>Bahrain FinTech Bay</li>
+                        <li><i class="fas fa-envelope mr-2 text-blue-400"></i>policygrid.systems@gmail.com</li>
+                        <li><i class="fab fa-whatsapp mr-2 text-green-400"></i>+973 6630 8147</li>
+                        <li><i class="fas fa-map-marker-alt mr-2 text-red-400"></i>Manama, Bahrain</li>
                     </ul>
                     <div class="flex space-x-4 mt-4">
                         <a href="#" class="text-slate-400 hover:text-blue-400"><i class="fab fa-linkedin text-xl"></i></a>
@@ -522,7 +522,7 @@
             </div>
             
             <div class="border-t border-slate-800 pt-8 text-center text-slate-400 text-sm">
-                <p>&copy; 2024 PolicyGrid. All rights reserved. | <a href="#" class="hover:text-blue-400">Privacy Policy</a> | <a href="#" class="hover:text-blue-400">Terms of Service</a></p>
+                <p>&copy; 2024 PolicyGrid. All rights reserved. | <a href="privacy-policy.html" class="hover:text-blue-400">Privacy Policy</a> | <a href="terms-of-service.html" class="hover:text-blue-400">Terms of Service</a></p>
             </div>
         </div>
     </footer>
@@ -666,7 +666,7 @@
         </div>
     </div>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         let currentLang = 'en';
         
         function toggleLanguage() {
@@ -726,14 +726,3 @@
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
-        });
-        
-        // Close modal on escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                closeDemoForm();
-            }
-        });
-    </script>
-</body>
-</html>
